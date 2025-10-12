@@ -129,7 +129,9 @@ du -h
 du <directory> -h --max-depth 1 = search file size in directory with depth 1  
 ex: du ./home -h --max-depth 1  
   
-  
+chmod 777 testFile.txt  
+chmod u+rwx,g+rwg,o+rwg testFile.txt  
+
   
 #################################################  
 sys  
