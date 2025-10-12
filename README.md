@@ -136,6 +136,11 @@ chown mori:root testFile.txt
 chgrp root testFile.txt  
 newgrp root  
 
+whereis passwd  
+which passwd  
+
+umask <mask number>
+umask u=rw,g= ,o=
   
 #################################################  
 sys  
