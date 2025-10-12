@@ -132,6 +132,10 @@ ex: du ./home -h --max-depth 1
 chmod 777 testFile.txt  
 chmod u+rwx,g+rwg,o+rwg testFile.txt  
 
+chown mori:root testFile.txt  
+chgrp root testFile.txt  
+newgrp root  
+
   
 #################################################  
 sys  
