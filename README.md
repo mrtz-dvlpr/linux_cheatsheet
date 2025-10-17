@@ -129,19 +129,7 @@ du -h
 du <directory> -h --max-depth 1 = search file size in directory with depth 1  
 ex: du ./home -h --max-depth 1  
   
-chmod 777 testFile.txt  
-chmod u+rwx,g+rwg,o+rwg testFile.txt  
 
-chown mori:root testFile.txt  
-chgrp root testFile.txt  
-newgrp root  
-
-whereis passwd  
-which passwd  
-
-umask <mask number>
-umask u=rw,g= ,o=
-  
 #################################################  
 sys  
 /proc  
@@ -291,3 +279,25 @@ mount <partition>  <directory>
 ex : mount  /dev/sda1  /tmp/testMount  
 umount -f /dev/sda1  
 umount -l /dev/sda1
+
+
+-- permision  
+whoami  
+groups  
+id  
+ls -ltrh script.sh  
+chmod 777 testFile.txt  
+chmod u+rwx,g+rwg,o+rwg testFile.txt  
+
+chown mori:root testFile.txt  
+chgrp root testFile.txt  
+A common switch is -R to chown recursively.  
+newgrp root  
+
+whereis passwd  
+which passwd  
+
+umask <mask number>
+umask u=rw,g= ,o=  
+chmod +x myfile  
+execute (x character) means that they can see the files inside it, have a look if dir has not x   
