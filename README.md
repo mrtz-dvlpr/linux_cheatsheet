@@ -333,4 +333,14 @@ unset
 ~/.bashrc
 ~/.bash\_logout
 function
-alias
+alias  
+
+-- adminustration  
+sudo find / -perm -u+s  
+ulimit -a  
+/etc/security/limits.conf  
+
+-- network  
+nmap  
+
+
