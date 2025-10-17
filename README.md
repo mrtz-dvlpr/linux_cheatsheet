@@ -309,3 +309,28 @@ ln -s new_file soft_link
 find . -type l  
 To remove links, you can use the rm or unlink command.   
 
+-- location  
+echo $PATH  
+which  
+type  
+whereis  
+find /tmp/ -maxdepth 1 -user jadi | head  
+find . ! -user mori    
+locate networking  
+updatedb  
+
+-- shell environment  
+source
+/etc/bash.bashrc
+/etc/profile
+env
+export
+set
+unset
+~/.bash\_profile
+~/.bash\_login
+~/.profile
+~/.bashrc
+~/.bash\_logout
+function
+alias
