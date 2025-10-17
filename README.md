@@ -301,3 +301,11 @@ umask <mask number>
 umask u=rw,g= ,o=  
 chmod +x myfile  
 execute (x character) means that they can see the files inside it, have a look if dir has not x   
+
+-- link  
+vi new_file  
+ln new_file hard_link  
+ln -s new_file soft_link  
+find . -type l  
+To remove links, you can use the rm or unlink command.   
+
